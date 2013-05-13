@@ -10,7 +10,7 @@ LambdaTest is heavily influenced by my love to fluent APIs as well as
 Bill Venners' **ScalaTest**, which I love and use on a daily basis.
 
 Example
-=======
+-------
 
 ```java
 import pl.project13.test.lambda.exampleimpl.Adder;
@@ -72,13 +72,26 @@ As you can see, the failure reporing is not yet implemented (it's JUnits report 
 this will be obviously replaced by an autonomous test runner within **LambdaTest**.
 
 Requirements
-============
+------------
 
 Please note that Java 8 is actually quite far away, yet this is a working prototype.
 The tests are currently launched as one JUnit test - until I write my own test reporter and runner.
 
 * Java 8 (yes, I know it's going to be released around one year from now... ;-)).
 * Maven - and the tests themselfs are started using JUnit
+
+Future development
+------------------
+These features will be eventually implemented in Lambda Spec:
+
+* Autonomous test runner - to enable running without JUnit
+* More Spec styles - a `FreeFlowSpec` would be one of those for example
+* Parallel execution of tests with buffered message logging
+* Enable configuration via env and jvm parameters
+* Guice support, as in `describe(Some.class).injectedUsing(TestingModule.class)`
+
+IDE integration is NOT a focus at this point, instead the runner will get awesome features like `test-quick` or `test-only`.
+Go check out Scala Test if you don't know how those work.
 
 License
 -------
