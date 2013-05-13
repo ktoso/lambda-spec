@@ -85,6 +85,8 @@ Future development
 These features will be eventually implemented in Lambda Spec:
 
 * Autonomous test runner - to enable running without JUnit
+* Add line numbers to test failure logs
+* Add "view last stacktrace"
 * More Spec styles - a `FreeFlowSpec` would be one of those for example
 * Parallel execution of tests with buffered message logging
 * Enable configuration via env and jvm parameters
