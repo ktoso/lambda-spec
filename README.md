@@ -77,7 +77,7 @@ Requirements
 Please note that Java 8 is actually quite far away, yet this is a working prototype.
 The tests are currently launched as one JUnit test - until I write my own test reporter and runner.
 
-* Java 8
+* Java 8 (yes, I know it's going to be released around one year from now... ;-)).
 * Maven - and the tests themselfs are started using JUnit
 
 License
