@@ -102,6 +102,6 @@ Feel free to submit patches - I merge stuff fast.
 
 About me
 --------
-Fan of programming and type systems. Doer of things, who likes the the JVM.
+Fan of programming and type systems. Doer of things. Likes the the JVM (current favourite lang being Scala).
 
 Konrad Malawski @ java.pl -- 13 May 2013
