@@ -1,6 +1,6 @@
 Lambda Spec
 ===========
 
-Bringing more lambda in your tests, since 2013!
+Adding more λ to your Java Specs!
 
-Konrad Malawski @ java.pl 2013
+Konrad Malawski @ java.pl -- 13 May 2013
