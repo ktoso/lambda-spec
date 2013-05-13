@@ -85,6 +85,7 @@ Future development
 These features will be eventually implemented in Lambda Spec:
 
 * Autonomous test runner - to enable running without JUnit
+* My fav goal: Knowing that class `A` changed, run all tests, that depend on `A`s behaviour, allowing for super fast TDDing
 * Add line numbers to test failure logs
 * Add "view last stacktrace"
 * Support Google Caliper - in the form of `benchmark(MyList.class)` and `bench.time()` / `bench.mem()` functions
