@@ -87,6 +87,7 @@ These features will be eventually implemented in Lambda Spec:
 * Autonomous test runner - to enable running without JUnit
 * Add line numbers to test failure logs
 * Add "view last stacktrace"
+* Support Google Caliper - in the form of `benchmark(MyList.class)` and `bench.time()` / `bench.mem()` functions
 * More Spec styles - a `FreeFlowSpec` would be one of those for example
 * Parallel execution of tests with buffered message logging
 * Enable configuration via env and jvm parameters
