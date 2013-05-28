@@ -4,7 +4,7 @@ Lambda Spec
 Adding more λ to your Java Specs!
 
 Testing may change it's looks with the addition of Lambdas in JDK8.
-**LambdaTest** is giving you a taste of tomorrow... today!
+**LambdaSpec** is giving you a taste of tomorrow... today!
 
 LambdaTest is heavily influenced by my love to fluent APIs as well as
 Bill Venners' **ScalaTest**, which I love and use on a daily basis.
@@ -69,7 +69,7 @@ The console output would then look like this:
 ![Example run](doc/example.png)
 
 As you can see, the failure reporing is not yet implemented (it's JUnits report - one passed test),
-this will be obviously replaced by an autonomous test runner within **LambdaTest**.
+this will be obviously replaced by an autonomous test runner within **LambdaSpec**.
 
 Requirements
 ------------
